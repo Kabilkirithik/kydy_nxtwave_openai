@@ -1,0 +1,51 @@
+{
+  "lesson_id": "1f6f838b",
+  "topic": "Teach me about tell about ohm's law",
+  "subtopic": "Introduction",
+  "intent": "educational",
+  "audience": "beginner",
+  "learning_objectives": [
+    "Understand the core concepts"
+  ],
+  "timeline": [
+    {
+      "step_index": 0,
+      "title": "Introduction",
+      "description": "Ohm's Law is a fundamental principle in electrical engineering that describes the relationship between voltage, current, and resistance in an electrical circuit. It states that the current through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them.",
+      "duration_seconds": 30,
+      "assets": [
+        {
+          "asset_id": "708778e7",
+          "primitive_id": "resistor",
+          "url": "/assets/resistor_708778e7.svg",
+          "svg": "<svg width=\"200\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"resistorGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n      <stop offset=\"50%\" style=\"stop-color:#A0522D;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <!-- Left wire -->\n  <line x1=\"0\" y1=\"40.0\" x2=\"40\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"3\"/>\n  <!-- Resistor body -->\n  <rect x=\"40\" y=\"20.0\" width=\"120\" height=\"40\" fill=\"url(#resistorGrad)\" stroke=\"#654321\" stroke-width=\"2\" rx=\"5\"/>\n  <!-- Color bands -->\n  <rect x=\"50\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#000\"/>\n  <rect x=\"65\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#8B0000\"/>\n  <rect x=\"80\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#FFD700\"/>\n  <rect x=\"95\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#C0C0C0\"/>\n  <!-- Right wire -->\n  <line x1=\"160\" y1=\"40.0\" x2=\"200\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"3\"/>\n  <!-- Value label -->\n  <text x=\"100.0\" y=\"90.0\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">10k\u03a9</text>\n</svg>",
+          "render_meta": {
+            "confidence": 0.8,
+            "width": 200,
+            "height": 80
+          }
+        }
+      ],
+      "key_points": [
+        "Ohm's Law: V = I \u00d7 R",
+        "Voltage (V) is measured in volts",
+        "Current (I) is measured in amperes",
+        "Resistance (R) is measured in ohms"
+      ],
+      "formula": "V = I \u00d7 R"
+    },
+    {
+      "step_index": 1,
+      "title": "Main Concept",
+      "description": "Resistance is the opposition to the flow of electric current. In a resistor, resistance is determined by the material, length, and cross-sectional area. Color-coded bands on resistors indicate their resistance value, making it easy to identify components in circuits.",
+      "duration_seconds": 45,
+      "assets": [],
+      "key_points": [
+        "Resistance opposes current flow",
+        "Measured in ohms (\u03a9)",
+        "Color bands indicate resistance value",
+        "Higher resistance = less current flow"
+      ]
+    }
+  ]
+}

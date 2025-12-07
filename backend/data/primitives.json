@@ -1,0 +1,50 @@
+{
+  "0db6c60e62d597358226a6e3a0472c01d703413f5030e36e51603917f583d6cd": {
+    "asset_id": "708778e7",
+    "asset_file": "resistor_708778e7.svg",
+    "primitive_id": "resistor",
+    "params": {},
+    "render_meta": {
+      "confidence": 0.8,
+      "width": 200,
+      "height": 80
+    }
+  },
+  "db0896fbeaa9303a869006eff00a391b4cdc59d418b093b77cdb221a50f03a2f": {
+    "asset_id": "d049cff0",
+    "asset_file": "resistor_d049cff0.svg",
+    "primitive_id": "resistor",
+    "params": {
+      "value": "10k\u03a9"
+    },
+    "render_meta": {
+      "confidence": 0.8,
+      "width": 400,
+      "height": 200
+    }
+  },
+  "71fe8be5a6f5532f5da92bf597133f408432d355d7e04475e71d5a2a76584dfa": {
+    "asset_id": "7908f2ff",
+    "asset_file": "battery_7908f2ff.svg",
+    "primitive_id": "battery",
+    "params": {
+      "voltage": "9V"
+    },
+    "render_meta": {
+      "confidence": 0.8,
+      "width": 400,
+      "height": 250
+    }
+  },
+  "d466fe46b21ced8aacbed6f020d8946d72dfa5fe43eb2cc7a4f515cc8f47deed": {
+    "asset_id": "9e90c04f",
+    "asset_file": "graph_9e90c04f.svg",
+    "primitive_id": "graph",
+    "params": {},
+    "render_meta": {
+      "confidence": 0.8,
+      "width": 500,
+      "height": 400
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lesson_id": "1e0a3902",
+  "topic": "Teach me about tell about ohm's law",
+  "subtopic": "Introduction",
+  "intent": "educational",
+  "audience": "beginner",
+  "learning_objectives": [
+    "Understand the core concepts"
+  ],
+  "timeline": [
+    {
+      "step_index": 0,
+      "title": "Introduction",
+      "description": "Teach me about tell about ohm's law",
+      "duration_seconds": 30,
+      "assets": [
+        {
+          "asset_id": "708778e7",
+          "primitive_id": "resistor",
+          "url": "/assets/resistor_708778e7.svg",
+          "svg": "<svg width=\"200\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"resistorGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n      <stop offset=\"50%\" style=\"stop-color:#A0522D;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <!-- Left wire -->\n  <line x1=\"0\" y1=\"40.0\" x2=\"40\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"3\"/>\n  <!-- Resistor body -->\n  <rect x=\"40\" y=\"20.0\" width=\"120\" height=\"40\" fill=\"url(#resistorGrad)\" stroke=\"#654321\" stroke-width=\"2\" rx=\"5\"/>\n  <!-- Color bands -->\n  <rect x=\"50\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#000\"/>\n  <rect x=\"65\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#8B0000\"/>\n  <rect x=\"80\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#FFD700\"/>\n  <rect x=\"95\" y=\"20.0\" width=\"8\" height=\"40\" fill=\"#C0C0C0\"/>\n  <!-- Right wire -->\n  <line x1=\"160\" y1=\"40.0\" x2=\"200\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"3\"/>\n  <!-- Value label -->\n  <text x=\"100.0\" y=\"90.0\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\" text-anchor=\"middle\">10k\u03a9</text>\n</svg>",
+          "render_meta": {
+            "confidence": 0.8,
+            "width": 200,
+            "height": 80
+          }
+        }
+      ]
+    },
+    {
+      "step_index": 1,
+      "title": "Main Concept",
+      "description": "Exploring the key concepts",
+      "duration_seconds": 45,
+      "assets": []
+    }
+  ]
+}

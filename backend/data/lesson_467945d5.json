@@ -1,0 +1,92 @@
+{
+  "lesson_id": "467945d5",
+  "topic": "Teach me about ohms law",
+  "subtopic": "Introduction",
+  "intent": "educational",
+  "audience": "beginner",
+  "learning_objectives": [
+    "Understand the core concepts",
+    "Apply knowledge practically",
+    "Build a solid foundation"
+  ],
+  "timeline": [
+    {
+      "step_index": 0,
+      "title": "Introduction to Ohm's Law",
+      "description": "Ohm's Law is a fundamental principle in electrical engineering that describes the relationship between voltage, current, and resistance in an electrical circuit. It states that the current through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them.",
+      "key_points": [
+        "Ohm's Law: V = I \u00d7 R",
+        "Voltage (V) is measured in volts",
+        "Current (I) is measured in amperes",
+        "Resistance (R) is measured in ohms"
+      ],
+      "formula": "V = I \u00d7 R",
+      "duration_seconds": 20,
+      "assets": [
+        {
+          "asset_id": "d049cff0",
+          "primitive_id": "resistor",
+          "url": "/assets/resistor_d049cff0.svg",
+          "svg": "<svg width=\"400\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"resistorGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n      <stop offset=\"50%\" style=\"stop-color:#A0522D;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B4513;stop-opacity:1\" />\n    </linearGradient>\n    <filter id=\"shadow\">\n      <feDropShadow dx=\"2\" dy=\"2\" stdDeviation=\"3\" flood-opacity=\"0.3\"/>\n    </filter>\n  </defs>\n  <!-- Background -->\n  <rect width=\"400\" height=\"200\" fill=\"#f5f5f5\" rx=\"8\"/>\n  \n  <!-- Text box -->\n  <rect x=\"20\" y=\"20\" width=\"360\" height=\"60\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"200.0\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\" opacity=\"0\">Resistor Component</text>\n  <text x=\"200.0\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#4b5563\" text-anchor=\"middle\" opacity=\"0\">Resistance: 10k\u03a9</text>\n  \n  <!-- Circuit diagram -->\n  <g transform=\"translate(50, 120)\">\n    <!-- Left wire -->\n    <line x1=\"0\" y1=\"0\" x2=\"60\" y2=\"0\" stroke=\"#333\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <!-- Resistor body -->\n    <rect x=\"60\" y=\"-25\" width=\"140\" height=\"50\" fill=\"url(#resistorGrad)\" stroke=\"#654321\" stroke-width=\"3\" rx=\"6\" opacity=\"0\"/>\n    <!-- Color bands -->\n    <rect x=\"75\" y=\"-25\" width=\"10\" height=\"50\" fill=\"#000\" opacity=\"0\"/>\n    <rect x=\"95\" y=\"-25\" width=\"10\" height=\"50\" fill=\"#8B0000\" opacity=\"0\"/>\n    <rect x=\"115\" y=\"-25\" width=\"10\" height=\"50\" fill=\"#FFD700\" opacity=\"0\"/>\n    <rect x=\"135\" y=\"-25\" width=\"10\" height=\"50\" fill=\"#C0C0C0\" opacity=\"0\"/>\n    <!-- Right wire -->\n    <line x1=\"200\" y1=\"0\" x2=\"260\" y2=\"0\" stroke=\"#333\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <!-- Value label below -->\n    <text x=\"130\" y=\"40\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\" opacity=\"0\">10k\u03a9</text>\n  </g>\n  \n  <!-- Formula box (if applicable) -->\n  <rect x=\"20\" y=\"140\" width=\"360\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#6366f1\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"200.0\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#4338ca\" text-anchor=\"middle\" opacity=\"0\">R = Resistance (\u03a9)</text>\n</svg>",
+          "render_meta": {
+            "confidence": 0.8,
+            "width": 400,
+            "height": 200
+          }
+        }
+      ]
+    },
+    {
+      "step_index": 1,
+      "title": "Understanding Resistance",
+      "description": "Resistance is the opposition to the flow of electric current. In a resistor, resistance is determined by the material, length, and cross-sectional area. Color-coded bands on resistors indicate their resistance value, making it easy to identify components in circuits.",
+      "key_points": [
+        "Resistance opposes current flow",
+        "Measured in ohms (\u03a9)",
+        "Color bands indicate resistance value",
+        "Higher resistance = less current flow"
+      ],
+      "formula": "",
+      "duration_seconds": 20,
+      "assets": [
+        {
+          "asset_id": "7908f2ff",
+          "primitive_id": "battery",
+          "url": "/assets/battery_7908f2ff.svg",
+          "svg": "<svg width=\"400\" height=\"250\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"batteryGrad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#4CAF50;stop-opacity:1\" />\n      <stop offset=\"50%\" style=\"stop-color:#2E7D32;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#1B5E20;stop-opacity:1\" />\n    </linearGradient>\n    <filter id=\"shadow\">\n      <feDropShadow dx=\"2\" dy=\"2\" stdDeviation=\"3\" flood-opacity=\"0.3\"/>\n    </filter>\n  </defs>\n  <!-- Background -->\n  <rect width=\"400\" height=\"250\" fill=\"#f5f5f5\" rx=\"8\"/>\n  \n  <!-- Text box -->\n  <rect x=\"20\" y=\"20\" width=\"360\" height=\"70\" fill=\"#fff\" stroke=\"#10b981\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"200.0\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"18\" font-weight=\"bold\" fill=\"#065f46\" text-anchor=\"middle\" opacity=\"0\">Battery Component</text>\n  <text x=\"200.0\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#4b5563\" text-anchor=\"middle\" opacity=\"0\">Voltage: 9V</text>\n  \n  <!-- Battery diagram -->\n  <g transform=\"translate(140.0, 120)\">\n    <!-- Battery body -->\n    <rect x=\"0\" y=\"0\" width=\"80\" height=\"100\" fill=\"url(#batteryGrad)\" stroke=\"#1B5E20\" stroke-width=\"3\" rx=\"5\" opacity=\"0\"/>\n    <!-- Positive terminal -->\n    <rect x=\"25\" y=\"-15\" width=\"30\" height=\"15\" fill=\"#1B5E20\" stroke=\"#0D4A0F\" stroke-width=\"2\" rx=\"3\" opacity=\"0\"/>\n    <!-- Negative terminal -->\n    <rect x=\"30\" y=\"100\" width=\"20\" height=\"15\" fill=\"#1B5E20\" stroke=\"#0D4A0F\" stroke-width=\"2\" rx=\"3\" opacity=\"0\"/>\n    <!-- Voltage label -->\n    <text x=\"40\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#065f46\" text-anchor=\"middle\" opacity=\"0\">9V</text>\n    <!-- Plus sign -->\n    <text x=\"40\" y=\"10\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\" opacity=\"0\">+</text>\n    <!-- Minus sign -->\n    <text x=\"40\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\" opacity=\"0\">-</text>\n  </g>\n  \n  <!-- Info box -->\n  <rect x=\"20\" y=\"200\" width=\"360\" height=\"35\" fill=\"#d1fae5\" stroke=\"#10b981\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"200.0\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#065f46\" text-anchor=\"middle\" opacity=\"0\">Provides electrical energy to the circuit</text>\n</svg>",
+          "render_meta": {
+            "confidence": 0.8,
+            "width": 400,
+            "height": 250
+          }
+        }
+      ]
+    },
+    {
+      "step_index": 2,
+      "title": "Circuit Analysis",
+      "description": "When analyzing circuits with Ohm's Law, we can calculate any one of the three variables (voltage, current, or resistance) if we know the other two. This makes circuit design and troubleshooting much easier. Let's see how voltage, current, and resistance interact in a simple circuit.",
+      "key_points": [
+        "Calculate voltage: V = I \u00d7 R",
+        "Calculate current: I = V / R",
+        "Calculate resistance: R = V / I",
+        "All three are interconnected"
+      ],
+      "formula": "I = V / R",
+      "duration_seconds": 25,
+      "assets": [
+        {
+          "asset_id": "9e90c04f",
+          "primitive_id": "graph",
+          "url": "/assets/graph_9e90c04f.svg",
+          "svg": "<svg width=\"500\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <pattern id=\"grid\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\">\n      <path d=\"M 60 0 L 0 0 0 60\" fill=\"none\" stroke=\"#e0e0e0\" stroke-width=\"1\"/>\n    </pattern>\n    <filter id=\"shadow\">\n      <feDropShadow dx=\"2\" dy=\"2\" stdDeviation=\"3\" flood-opacity=\"0.3\"/>\n    </filter>\n  </defs>\n  <!-- Background -->\n  <rect width=\"500\" height=\"400\" fill=\"#f5f5f5\" rx=\"8\"/>\n  \n  <!-- Title box -->\n  <rect x=\"20\" y=\"20\" width=\"460\" height=\"50\" fill=\"#fff\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"250.0\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"18\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\" opacity=\"0\">Data Visualization</text>\n  <text x=\"250.0\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#6b7280\" text-anchor=\"middle\" opacity=\"0\">Visual representation of data over time</text>\n  \n  <!-- Graph area -->\n  <g transform=\"translate(0, 90)\">\n    <rect x=\"60\" y=\"0\" width=\"420\" height=\"250\" fill=\"url(#grid)\" opacity=\"0\"/>\n    <!-- Axes -->\n    <line x1=\"80\" y1=\"250\" x2=\"460\" y2=\"250\" stroke=\"#333\" stroke-width=\"3\" opacity=\"0\"/>\n    <line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"250\" stroke=\"#333\" stroke-width=\"3\" opacity=\"0\"/>\n    <!-- Data line -->\n    <path d=\"M 80 280 L 140 200 L 200 240 L 260 160 L 320 180 L 380 120 L 440 140\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0\"/>\n    <!-- Data points -->\n    <circle cx=\"80\" cy=\"210\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"140\" cy=\"130\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"200\" cy=\"170\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"260\" cy=\"90\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"320\" cy=\"110\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"380\" cy=\"50\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/><circle cx=\"440\" cy=\"70\" r=\"6\" fill=\"#3b82f6\" opacity=\"0\"/>\n    <!-- Labels -->\n    <text x=\"250.0\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\" text-anchor=\"middle\" opacity=\"0\">Time</text>\n    <text x=\"30\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\" text-anchor=\"middle\" transform=\"rotate(-90 30 145)\" opacity=\"0\">Value</text>\n  </g>\n  \n  <!-- Stats box -->\n  <rect x=\"20\" y=\"340\" width=\"460\" height=\"45\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\" rx=\"6\" filter=\"url(#shadow)\" opacity=\"0\"/>\n  <text x=\"250\" y=\"360\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#1e40af\" text-anchor=\"middle\" opacity=\"0\">Max: 50 | Min: 10 | Avg: 32</text>\n</svg>",
+          "render_meta": {
+            "confidence": 0.8,
+            "width": 500,
+            "height": 400
+          }
+        }
+      ]
+    }
+  ]
+}

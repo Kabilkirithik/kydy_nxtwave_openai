@@ -1,0 +1,21 @@
+{
+  "session_id": "bc84db9e",
+  "topic": "teach me about ohms law",
+  "lesson_id": "69ec87cc",
+  "messages": [
+    {
+      "id": "1765089904666",
+      "role": "user",
+      "content": "what is friction "
+    },
+    {
+      "id": "1765089906168",
+      "role": "assistant",
+      "content": "Great question! Let me explain: what is friction . This is an important concept in teach me about ohms law. Would you like me to elaborate further or shall we continue with the lesson?"
+    }
+  ],
+  "notes": [],
+  "session_time": 93,
+  "created_at": "2025-12-07T12:13:25.389245",
+  "updated_at": "2025-12-07T12:15:29.288724"
+}
